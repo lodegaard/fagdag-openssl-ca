@@ -16,7 +16,7 @@ The goal is to create a certificate chain with a root CA, an intermediate CA and
        |  Client   |   
        +-----------+   
 
-You need to have openssl installed, since we will be using it to do all the work.
+You need to have openssl version 3 installed, since we will be using it to do all the work.
 
 There is overlap in almost all functions of the openssl commands. We will for the most par use `req` and `ca` to do everything.
 
