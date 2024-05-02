@@ -51,3 +51,8 @@ Fill in the required values in `user.conf`
 This is a lot simpler, since it is only used to create signing request.
 
 We need information here about what to sign, such as a DNS name or an IP address.
+
+## Setp 4 - Try it out
+To create a chain file, simple cat all the certificates you want into a single file.
+
+Start a server with the chain file and a key, then try to connect to it.
