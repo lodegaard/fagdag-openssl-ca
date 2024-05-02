@@ -21,7 +21,6 @@ openssl ca \
     -batch \
     -selfsign \
     -config root.conf \
-    -extensions ca_ext \
     -in out/root.csr \
     -out out/root.crt
 
