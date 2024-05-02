@@ -1,4 +1,4 @@
-# Create a PKI certifacte chain for testing
+# Create a PKI certificate chain for testing
 
 ## Intro
 
