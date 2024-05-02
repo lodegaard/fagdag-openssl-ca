@@ -24,4 +24,4 @@ Server
 > openssl s_server -key key.pem -cert cert.pem -accept 44330 -www
 
 Client
-> openssl s_client -cert-chain chain.pem -connect localhost:44330
+> openssl s_client -CAFile chain.pem -connect localhost:44330
