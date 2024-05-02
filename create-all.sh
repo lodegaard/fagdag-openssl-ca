@@ -60,3 +60,7 @@ openssl ca \
     -extensions cert_ext \
     -in out/user.csr \
     -out out/user.crt
+
+echo -e "\nCreate chain file"
+cat out/intermediate.crt out/root.crt > out/chain.crt
+chmod 444 out/chain.crt
